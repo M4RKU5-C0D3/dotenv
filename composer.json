@@ -1,0 +1,36 @@
+{
+    "name": "m4rku5/dotenv",
+    "description": "A tool to manage dotenv files",
+    "keywords": [
+        "dotenv"
+    ],
+    "homepage": "https://github.com/M4RKU5-C0D3/dotenv",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Markus Martens",
+            "email": "markus.martens@gmx.net",
+            "homepage": "https://github.com/M4RKU5-C0D3",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "m4rku5\\Dotenv\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "scripts": {
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
